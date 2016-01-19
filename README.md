@@ -1,3 +1,5 @@
-# Responsive HTML mail signature
+# Email signature
 
 My personal email signature.
+
+![Preview](preview.png)
