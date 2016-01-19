@@ -4,7 +4,7 @@
 
 module.exports = [
   {
-    id: 'fadeit', // Will be appended to the built templates.
+    id: 'personal', // Will be appended to the built templates.
     signature: 'Yours truly,',
     name: 'Jane Whatsmyname',
     welcome: 'Hi there,',
