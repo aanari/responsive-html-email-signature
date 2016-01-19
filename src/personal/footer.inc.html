@@ -1,37 +1,47 @@
-<td class="footer" bgcolor="#f5f5f5">
+<td class="footer" bgcolor="#f4f6f6">
   <!-- @todo gulp-inline-css can't use width in percentages -->
   <table class="rbcc footer__main" width="100%">
     <tr>
       <!-- @todo gulp-inline-css doesn't parse align -->
       <td class="footer__main__signature" align="left">
-        <!-- @echo signature --><br />
-        <!-- @echo name --><br />
+        <span class="name"><!-- @echo name --></span><br />
       </td>
     </tr>
     <tr>
-      <td width="100%">
-      <hr class="gray-hr"/></td>
-    </tr>
-    <tr>
       <!-- @todo gulp-inline-css can't use width in percentages, doesn't parse align -->
-      <table class="rbcc footer__main__col1" width="70%" align="left">
-        <td class="footer__main__col1__td" align="left">
-          <strong>
-            <!-- @echo contactMain -->
-            <a href="mailto:<!-- @echo contactMail -->" target="_blank"><!-- @echo contactMail --></a>
-          </strong><br />
-          <!-- @echo contactSecondary -->
-        </td>
-      </table>
-
-      <!-- @todo gulp-inline-css can't use width in percentages, doesn't parse align -->
-      <table class="rbcc footer__main__col2" width="30%" align="right">
-        <!-- @todo gulp-inline-css doesn't parse align -->
-        <td class="footer__main__col2__td" align="right">
-          <a href="<!-- @echo website -->">
-            <img src="<!-- @echo logoUrl -->" alt="<!-- @echo logoAlt -->" class="footer__main__col2__td__img"/>
-          </a>
-        </td>
+      <table class="rbcc footer__main__col1" width="100%" align="left">
+          <tr>
+              <td class="footer__main__col1__td" align="left" width="24px">
+                  <img alt="Globe" src="assets/globe.png"/>
+              </td>
+              <td>
+                  <a target="_blank" href="http://anari.io">anari.io</a>
+              </td>
+          </tr>
+          <tr>
+              <td class="footer__main__col1__td" align="left" width="24px">
+                  <img alt="Phone" src="assets/phone.png"/>
+              </td>
+              <td>
+                  <a target="_blank" href="tel:+12152050971">(215) 205-0971</a>
+              </td>
+          </tr>
+          <tr>
+              <td class="footer__main__col1__td" align="left" width="24px">
+                  <img alt="GitHub" src="assets/github.png"/>
+              </td>
+              <td>
+                  <a target="_blank" href="https://github.com/aanari">@aanari</a>
+              </td>
+          </tr>
+          <tr>
+              <td class="footer__main__col1__td" align="left" width="24px">
+                  <img alt="LinkedIn" src="assets/linkedin.png"/>
+              </td>
+              <td>
+                  <a target="_blank" href="https://linkedin.com/in/alianari">alianari</a>
+              </td>
+          </tr>
       </table>
     </tr>
   </table>
