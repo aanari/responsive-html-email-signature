@@ -30,7 +30,8 @@ tr{
 }
 
 table.card {
-    background-image: url(assets/bg.png);
+    background-image: url(https://dl.dropboxusercontent.com/u/69274956/Icons/bg.png);
+    width: 160px;
 }
 
 .rbcc{
@@ -69,7 +70,7 @@ a{
  */
 .main__welcome{
   color: #000;
-  padding: 10px 30px 0 30px;
+  padding: 20px;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
@@ -90,8 +91,9 @@ a{
  */
 .footer{
   /* @todo gulp-inline-css doesn't parse background-color -> bgcolor */
-  background-color: #f5f5f5;
-  padding: 20px 30px 0px 30px;
+  background-color: #f4f6f6;
+  background-image: url(https://dl.dropboxusercontent.com/u/69274956/Icons/card.png);
+  padding: 14px 20px 20px 20px;
   color: #000;
   border-top: 8px solid #EAEAEA;
 }
@@ -128,7 +130,6 @@ a{
 .footer__main__col1{
   /* @todo gulp-inline-css can't use width in percentages */
   width:100%;
-  margin-bottom:30px;
   /* @todo gulp-inline-css doesn't parse align */
   align:left;
 }

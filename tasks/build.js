@@ -8,8 +8,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     wrench = require('wrench'),
     Q = require('q'),
-    del = require('del'),
-    inlineimg = require('gulp-inline-image-html');
+    del = require('del');
 
 function buildTask(options){
   gulp.task('build', function(cb) {
@@ -32,7 +31,6 @@ function buildTask(options){
           .pipe(preprocess({
             context: item
           }))
-          .pipe(inlineimg(cwd))
           .pipe(inlineCss({
             applyTableAttributes: true,
             applyWidthAttributes: true,
