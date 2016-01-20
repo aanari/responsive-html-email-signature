@@ -30,8 +30,7 @@ tr{
 }
 
 table.card {
-    background-image: url(https://dl.dropboxusercontent.com/u/69274956/Icons/bg.png);
-    width: 190px;
+    width: 180px;
 }
 
 .rbcc{
@@ -93,7 +92,7 @@ a{
   /* @todo gulp-inline-css doesn't parse background-color -> bgcolor */
   background-color: #f4f6f6;
   background-image: url(https://dl.dropboxusercontent.com/u/69274956/Icons/card.png);
-  padding: 14px 20px 20px 20px;
+  padding: 6px 20px 10px 16px;
   color: #000;
   border-top: 8px solid #EAEAEA;
 }
@@ -109,8 +108,8 @@ a{
 }
 
 .name {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 28px;
     color: #000;
 }
 
@@ -171,6 +170,11 @@ a{
 }
 
 table.rbcc td {
-    font-size: 14px;
-    vertical-align: center;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+table.rbcc td img {
+    height: 13px;
+    width: 13px;
 }
