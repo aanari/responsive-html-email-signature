@@ -92,7 +92,7 @@ a{
   /* @todo gulp-inline-css doesn't parse background-color -> bgcolor */
   background-color: #f4f6f6;
   background-image: url(https://dl.dropboxusercontent.com/u/69274956/Icons/card.png);
-  padding: 6px 20px 10px 16px;
+  padding: 4px 20px 10px 16px;
   color: #000;
   border-top: 8px solid #EAEAEA;
 }
@@ -109,6 +109,7 @@ a{
 
 .name {
     font-size: 20px;
+    font-weight: bold;
     line-height: 28px;
     color: #000;
 }
